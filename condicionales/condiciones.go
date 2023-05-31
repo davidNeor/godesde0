@@ -12,4 +12,15 @@ func Micondicion() {
 		fmt.Println("Tu sistema es ",os)
 	}
 
+	switch os2:=runtime.GOOS; os2{
+	case "linux": 
+		fmt.Println("Esto es",os2)		
+	case "darwin":
+		fmt.Println("Esto es",os2)		
+	default:
+		fmt.Printf("%s \n",os2)
+		
+
+
+	}
 }
