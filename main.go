@@ -8,6 +8,8 @@ import (
 	"github.com/davidNeor/godesde0/condicionales"
 	"github.com/davidNeor/godesde0/ejercicios"
 	"github.com/davidNeor/godesde0/variables"
+	"github.com/davidNeor/godesde0/teclado"
+
 )
 
 func main(){
@@ -20,6 +22,7 @@ func main(){
 	fmt.Println("la cadena pasada es",cadena)
 	fmt.Println("El numero que corresponde a la cadena es ",miNumero)
 	fmt.Println(mierror)
+	teclado.IngresoNumeros()
 
 
 }
