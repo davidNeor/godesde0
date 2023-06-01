@@ -12,7 +12,9 @@ import (
 	// "github.com/davidNeor/godesde0/iteraciones"
 	// "github.com/davidNeor/godesde0/archivos"
 	// "github.com/davidNeor/godesde0/funciones"
-	"github.com/davidNeor/godesde0/arreglos_slices"
+	// "github.com/davidNeor/godesde0/arreglos_slices"
+	"github.com/davidNeor/godesde0/mapas"
+
 
 
 
@@ -34,5 +36,6 @@ func main(){
 	// archivos.GrabaTabla()
 	// funciones.Llamarclosure()
 	// funciones.Exponencia(2)
-	arreglos_slices.Capacidad()
+	// arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }
