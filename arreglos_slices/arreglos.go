@@ -3,10 +3,9 @@ package arreglos_slices
 import "fmt"
 
 
-var tabla [10]int
+var tabla [10]int=[10]int{10,0,67,89}
 func MuestroArreglos() {
 
-	tabla[7]=33
-	tabla[3]=54
+	
 	fmt.Println(tabla)
 }
