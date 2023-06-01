@@ -2,7 +2,7 @@
 package main
 
 import (
-	
+
 	// "fmt"
 
 	// "github.com/davidNeor/godesde0/condicionales"
@@ -13,11 +13,10 @@ import (
 	// "github.com/davidNeor/godesde0/archivos"
 	// "github.com/davidNeor/godesde0/funciones"
 	// "github.com/davidNeor/godesde0/arreglos_slices"
-	"github.com/davidNeor/godesde0/mapas"
-
-
-
-
+	// "github.com/davidNeor/godesde0/mapas"
+	// "github.com/davidNeor/godesde0/users"
+	// e "github.com/davidNeor/godesde0/ejer_interfaces"	
+	// m "github.com/davidNeor/godesde0/modelos"
 )
 
 func main(){
@@ -37,5 +36,10 @@ func main(){
 	// funciones.Llamarclosure()
 	// funciones.Exponencia(2)
 	// arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	// mapas.MostrarMapas()
+	// users.AltaUsuario()
+	// Pedro:=new(m.Hombre)
+	// Maria:=new(m.Mujer)
+	// e.HumanosRespirando(Pedro)
+	// e.HumanosRespirando(Maria)
 }
