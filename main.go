@@ -17,6 +17,7 @@ import (
 	// "github.com/davidNeor/godesde0/users"
 	// e "github.com/davidNeor/godesde0/ejer_interfaces"	
 	// m "github.com/davidNeor/godesde0/modelos"
+	//  d "github.com/davidNeor/godesde0/defer_panic"
 )
 
 func main(){
@@ -42,4 +43,7 @@ func main(){
 	// Maria:=new(m.Mujer)
 	// e.HumanosRespirando(Pedro)
 	// e.HumanosRespirando(Maria)
+	// d.EjemploPanic()
+	// d.VemosDefer()
+	
 }

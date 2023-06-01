@@ -1,13 +1,18 @@
 package defer_panic
 
 import (
-	"os"
-	"log"
+
 	"fmt"
 )
 
 func VemosDefer() {
 
 	fmt.Println("Este es un primer mensaje")
-	defer archivo.Close()
+	defer fmt.Println("Este es el mensaje final")
+	fmt.Println("Este es el segundo mensaje")
+}
+
+func EjemploPanic() {
+
+	panic("Esto se ha ido de madre")
 }
