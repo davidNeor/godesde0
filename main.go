@@ -3,7 +3,7 @@ package main
 
 import (
 
-	// "fmt"
+	"fmt"
 
 	// "github.com/davidNeor/godesde0/condicionales"
 	// "github.com/davidNeor/godesde0/ejercicios"
@@ -17,7 +17,8 @@ import (
 	// "github.com/davidNeor/godesde0/users"
 	// e "github.com/davidNeor/godesde0/ejer_interfaces"	
 	// m "github.com/davidNeor/godesde0/modelos"
-	//  d "github.com/davidNeor/godesde0/defer_panic"
+	//  d 
+	g "github.com/davidNeor/godesde0/goroutines"
 )
 
 func main(){
@@ -45,5 +46,13 @@ func main(){
 	// e.HumanosRespirando(Maria)
 	// d.EjemploPanic()
 	// d.VemosDefer()
+	canal1 := make(chan bool)
+	go g.MiNombreLentoo("David",canal1)
+	defer func() {
+		<-canal1
+	}()
+	fmt.Println("Estoy aqui")
 	
+	
+
 }
