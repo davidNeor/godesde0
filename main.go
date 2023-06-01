@@ -10,7 +10,10 @@ import (
 	// "github.com/davidNeor/godesde0/variables"
 	// "github.com/davidNeor/godesde0/teclado"
 	// "github.com/davidNeor/godesde0/iteraciones"
-	"github.com/davidNeor/godesde0/archivos"
+	// "github.com/davidNeor/godesde0/archivos"
+	// "github.com/davidNeor/godesde0/funciones"
+	"github.com/davidNeor/godesde0/arreglos_slices"
+
 
 
 )
@@ -28,6 +31,8 @@ func main(){
 	// teclado.IngresoNumeros()
 	// iteraciones.Iterar()
 	// ejercicios.Tabla()
-	archivos.GrabaTabla()
-
+	// archivos.GrabaTabla()
+	// funciones.Llamarclosure()
+	// funciones.Exponencia(2)
+	arreglos_slices.MuestroArreglos()
 }
