@@ -34,5 +34,5 @@ func main(){
 	// archivos.GrabaTabla()
 	// funciones.Llamarclosure()
 	// funciones.Exponencia(2)
-	arreglos_slices.MuestroArreglos()
+	arreglos_slices.Capacidad()
 }
